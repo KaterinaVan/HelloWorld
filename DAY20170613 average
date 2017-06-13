@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main(void)
+{
+	int a, b, c, d, e, x, y;
+	printf("here,you can put five number.We will get it average.\n");
+	printf("puts five number here:\n");
+	scanf("%d", &a); 
+	scanf("%d", &b); 
+	scanf("%d", &c); 
+	scanf("%d", &d); 
+	scanf("%d", &e);
+	x=a+b+c+d+e;
+	y=x/5;
+	printf("%d" ,y);
+	return 0;
+}
